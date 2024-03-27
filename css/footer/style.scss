@@ -1,0 +1,17 @@
+.footer{
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    .logo{
+      max-height: 50px;
+      width: auto;
+    }
+    .navigation-links{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+  }

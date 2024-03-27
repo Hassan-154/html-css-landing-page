@@ -1,0 +1,227 @@
+.home {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 60px;
+  padding: 20px 10px;
+  position: relative;
+}
+.home .img-side .mobile {
+  margin-top: 10px;
+}
+.home .img-side .game-img {
+  position: absolute;
+  top: 74px;
+  left: 27px;
+}
+.home .content-side {
+  max-width: 605px;
+  margin-top: 15vh;
+}
+.home .content-side p {
+  font-size: 32px;
+  font-weight: 400;
+}
+.home .content-side h1 {
+  font-size: 67px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+.home .content-side span {
+  font-size: 21px;
+  font-weight: 400;
+  padding-top: 5px;
+}
+.home .content-side h4 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 70px;
+}
+.home .content-side h5 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 70px;
+}
+.home .content-side .download {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+.home .content-side .download .download-img {
+  max-width: 110px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 980px) {
+  .home {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    padding: 20px 10px;
+    position: relative;
+  }
+  .home .img-side .mobile {
+    margin-top: 10px;
+  }
+  .home .img-side .game-img {
+    position: absolute;
+    top: 74px;
+    left: 27px;
+  }
+  .home .content-side {
+    max-width: 570px;
+    margin-top: 15vh;
+  }
+  .home .content-side p {
+    font-size: 28px;
+    font-weight: 400;
+  }
+  .home .content-side h1 {
+    font-size: 59px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-top: 7px;
+  }
+  .home .content-side span {
+    font-size: 19px;
+    font-weight: 400;
+    padding-top: 12px;
+  }
+  .home .content-side h4 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 80px;
+  }
+  .home .content-side h5 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 80px;
+  }
+  .home .content-side .download {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+  }
+  .home .content-side .download .download-img {
+    max-width: 110px;
+  }
+}
+@media screen and (max-width: 860px) {
+  .home {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    padding: 20px 10px;
+    position: relative;
+  }
+  .home .img-side .mobile {
+    margin-top: 10px;
+  }
+  .home .img-side .game-img {
+    position: absolute;
+    top: 74px;
+    left: 27px;
+  }
+  .home .content-side {
+    max-width: 430px;
+    margin-top: 15vh;
+  }
+  .home .content-side p {
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .home .content-side h1 {
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  .home .content-side span {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .home .content-side h4 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 90px;
+  }
+  .home .content-side h5 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 90px;
+  }
+  .home .content-side .download {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+  }
+  .home .content-side .download .download-img {
+    max-width: 110px;
+  }
+}
+@media screen and (max-width: 738px) {
+  .home {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    position: relative;
+    align-items: center;
+  }
+  .home .img-side {
+    position: relative;
+  }
+  .home .img-side .mobile {
+    max-width: 255px;
+    margin-top: 10px;
+  }
+  .home .img-side .game-img {
+    max-width: 225px;
+    position: absolute;
+    top: 52.7%;
+    left: 49.7%;
+    transform: translate(-50%, -50%);
+  }
+  .home .content-side {
+    max-width: 430px;
+    margin-top: 5vh;
+  }
+  .home .content-side p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .home .content-side h1 {
+    font-size: 33px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  .home .content-side span {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .home .content-side h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+  .home .content-side h5 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+  }
+  .home .content-side .download {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+  }
+  .home .content-side .download .download-img {
+    max-width: 110px;
+  }
+}/*# sourceMappingURL=style.css.map */

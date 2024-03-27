@@ -1,0 +1,389 @@
+.win-real-money {
+  padding: 20px 10px;
+  color: black;
+  max-width: 850px;
+  margin: 0 auto;
+}
+.win-real-money .grid {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.win-real-money h5 {
+  margin-top: 8px;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 800;
+}
+.win-real-money h2 {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.win-real-money .paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.win-real-money .paragraph p {
+  font-weight: 500;
+  font-size: 17px;
+}
+.win-real-money .paragraph span {
+  font-weight: 800;
+}
+
+@media screen and (max-width: 600px) {
+  .win-real-money {
+    padding: 20px 10px;
+    color: black;
+    max-width: 850px;
+    margin: 0 auto;
+  }
+  .win-real-money .grid {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .win-real-money h5 {
+    margin-top: 8px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 800;
+  }
+  .win-real-money h2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  .win-real-money .paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+  }
+  .win-real-money .paragraph p {
+    font-weight: 500;
+    font-size: 17px;
+  }
+  .win-real-money .paragraph span {
+    font-weight: 800;
+  }
+}
+.why-StopClock {
+  padding: 20px 10px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+.why-StopClock h1 {
+  padding: 20px 10px;
+  font-weight: 500;
+  text-align: center;
+}
+.why-StopClock span {
+  font-weight: 600;
+}
+.why-StopClock p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.why-StopClock .grid-top-img {
+  max-width: 700px;
+  margin: 20px auto;
+  padding-top: 15px;
+}
+.why-StopClock .grid {
+  display: flex;
+  justify-content: space-between;
+}
+.why-StopClock .grid .grid-box {
+  max-width: 200px;
+}
+.why-StopClock .grid .grid-box .heading-img {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.why-StopClock .grid .grid-box .heading-img h5 {
+  font-size: 15px;
+}
+.why-StopClock .grid .grid-box p {
+  margin-top: 10px;
+  font-size: 15px;
+}
+.why-StopClock .grid .grid-box .last-one {
+  margin-top: -10px;
+}
+.why-StopClock .game-modes {
+  max-width: 350px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin-top: 50px;
+}
+.why-StopClock .game-modes h5 {
+  font-size: 21px;
+  font-weight: 700;
+}
+.why-StopClock .game-modes p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.why-StopClock .game-modes .horizontal-line {
+  height: 2px;
+  background-color: #1DB56A;
+}
+.why-StopClock .ready-to-play {
+  box-shadow: 0px 4px 7px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  max-width: 600px;
+  margin: 20px auto;
+  margin-top: 60px;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+  border-radius: 15px;
+}
+.why-StopClock .ready-to-play .cash {
+  height: 180px;
+  width: auto;
+}
+.why-StopClock .ready-to-play .mid-line {
+  height: 200px;
+  width: auto;
+}
+.why-StopClock .ready-to-play .right-content {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+.why-StopClock .ready-to-play .right-content h4 {
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  font-size: 21px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.why-StopClock .ready-to-play .right-content h5 {
+  font-weight: 800;
+  font-size: 16px;
+}
+.why-StopClock .ready-to-play .right-content .download {
+  display: flex;
+  gap: 5px;
+}
+.why-StopClock .ready-to-play .right-content .download .download-img {
+  max-width: 100px;
+}
+.why-StopClock .here-how {
+  max-height: 850px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+  padding: 20px;
+  border-radius: 25px;
+  margin-top: 50px;
+}
+.why-StopClock .here-how h3 {
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+}
+.why-StopClock .here-how .here-grid {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 12px;
+  padding-top: 30px;
+}
+.why-StopClock .here-how .here-grid .here-grid-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.why-StopClock .here-how .here-grid .here-grid-box img {
+  width: 40px;
+  height: 25px;
+}
+.why-StopClock .here-how .here-grid .here-grid-box p {
+  width: 100%;
+}
+
+.play-now {
+  background-color: rgb(27, 168, 98);
+  padding-bottom: 50px;
+  margin-top: 40px;
+  position: relative;
+}
+.play-now .play-now-inner h1 {
+  font-size: 42px;
+  color: white;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  padding-top: 30px;
+}
+.play-now .play-now-inner .download {
+  max-width: 270px;
+  margin: 0 auto;
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+.play-now .play-now-inner .download .download-img {
+  max-height: 40px;
+}
+
+@media screen and (max-width: 680px) {
+  .why-StopClock {
+    padding: 20px 10px;
+    max-width: 850px;
+    margin: 0 auto;
+  }
+  .why-StopClock h1 {
+    padding: 20px 10px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .why-StopClock span {
+    font-weight: 600;
+  }
+  .why-StopClock p {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .why-StopClock .grid-top-img {
+    max-width: 450px;
+    margin: 20px auto;
+    padding-top: 15px;
+  }
+  .why-StopClock .grid-top-img img {
+    height: 30px;
+    width: auto;
+  }
+  .why-StopClock .grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  .why-StopClock .grid .grid-box {
+    max-width: 200px;
+  }
+  .why-StopClock .grid .grid-box .heading-img {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .why-StopClock .grid .grid-box .heading-img h5 {
+    font-size: 15px;
+  }
+  .why-StopClock .grid .grid-box p {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .why-StopClock .grid .grid-box .last-one {
+    margin-top: -10px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .why-StopClock {
+    padding: 20px 10px;
+    max-width: 850px;
+    margin: 0 auto;
+  }
+  .why-StopClock h1 {
+    padding: 20px 10px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .why-StopClock span {
+    font-weight: 600;
+  }
+  .why-StopClock p {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .why-StopClock .grid-top-img {
+    max-width: 450px;
+    margin: 20px auto;
+    padding-top: 15px;
+    display: none;
+  }
+  .why-StopClock .grid-top-img img {
+    height: 30px;
+    width: auto;
+  }
+  .why-StopClock .grid {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: space-between;
+  }
+  .why-StopClock .grid .grid-box {
+    max-width: 100%;
+  }
+  .why-StopClock .grid .grid-box .heading-img {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .why-StopClock .grid .grid-box .heading-img h5 {
+    font-size: 15px;
+  }
+  .why-StopClock .grid .grid-box p {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  .ready-to-play {
+    box-shadow: 0px 4px 7px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 20px auto;
+    margin-top: 60px;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+  .ready-to-play .cash {
+    height: 180px;
+    width: auto;
+  }
+  .ready-to-play .mid-line {
+    height: 200px;
+    width: auto;
+    display: none;
+  }
+  .ready-to-play .right-content {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+  .ready-to-play .right-content h4 {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 21px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .ready-to-play .right-content h5 {
+    font-weight: 800;
+    font-size: 16px;
+  }
+  .ready-to-play .right-content .download {
+    display: flex;
+    gap: 5px;
+  }
+  .ready-to-play .right-content .download .download-img {
+    max-width: 100px;
+  }
+}/*# sourceMappingURL=style.css.map */

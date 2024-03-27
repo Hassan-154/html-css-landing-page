@@ -1,0 +1,250 @@
+//main home page
+.home {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 60px;
+  padding: 20px 10px;
+  position: relative;
+
+  .img-side {
+    .mobile {
+      // max-width: 255px;
+      margin-top: 10px;
+    }
+    .game-img {
+      // max-width: 225px;
+      position: absolute;
+      top: 74px;
+      left: 27px;
+    }
+  }
+  .content-side {
+    max-width: 605px;
+    margin-top: 15vh;
+
+    p {
+      font-size: 32px;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 67px;
+      font-weight: 800;
+      text-transform: uppercase;
+      padding-top: 5px;
+    }
+
+    span {
+      font-size: 21px;
+      font-weight: 400;
+      padding-top: 5px;
+    }
+    h4 {
+      font-size: 30px;
+      font-weight: 700;
+      margin-top: 70px;
+    }
+    h5 {
+      font-size: 22px;
+      font-weight: 500;
+      margin-top: 70px;
+    }
+    .download {
+      display: flex;
+      gap: 10px;
+      margin-top: 8px;
+      .download-img {
+        max-width: 110px;
+        cursor: pointer;
+      }
+    }
+
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .home {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    padding: 20px 10px;
+    position: relative;
+    .img-side {
+      .mobile {
+        // max-width: 255px;
+        margin-top: 10px;
+      }
+      .game-img {
+        // max-width: 225px;
+        position: absolute;
+        top: 74px;
+        left: 27px;
+      }
+    }
+    .content-side {
+      max-width: 570px;
+      margin-top: 15vh;
+
+      p {
+        font-size: 28px;
+        font-weight: 400;
+      }
+      h1 {
+        font-size: 59px;
+        font-weight: 800;
+        text-transform: uppercase;
+        padding-top: 7px;
+      }
+      span {
+        font-size: 19px;
+        font-weight: 400;
+        padding-top: 12px;
+      }
+      h4 {
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: 80px;
+      }
+      h5 {
+        font-size: 22px;
+        font-weight: 500;
+        margin-top: 80px;
+      }
+      .download {
+        display: flex;
+        gap: 10px;
+        margin-top: 8px;
+        .download-img {
+          max-width: 110px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .home {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    padding: 20px 10px;
+    position: relative;
+    .img-side {
+      .mobile {
+        // max-width: 255px;
+        margin-top: 10px;
+      }
+      .game-img {
+        // max-width: 225px;
+        position: absolute;
+        top: 74px;
+        left: 27px;
+      }
+    }
+    .content-side {
+      max-width: 430px;
+      margin-top: 15vh;
+      p {
+        font-size: 22px;
+        font-weight: 400;
+      }
+      h1 {
+        font-size: 46px;
+        font-weight: 800;
+        text-transform: uppercase;
+        padding-top: 7px;
+        padding-bottom: 7px;
+      }
+      span {
+        font-size: 18px;
+        font-weight: 400;
+      }
+      h4 {
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: 90px;
+      }
+      h5 {
+        font-size: 22px;
+        font-weight: 500;
+        margin-top: 90px;
+      }
+      .download {
+        display: flex;
+        gap: 10px;
+        margin-top: 8px;
+        .download-img {
+          max-width: 110px;
+        }
+      }
+
+    }
+  }
+}
+
+@media screen and (max-width: 738px) {
+  .home {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    position: relative;
+    align-items: center;
+    .img-side {
+      position: relative;
+      .mobile {
+        max-width: 255px;
+        margin-top: 10px;
+      }
+      .game-img {
+        max-width: 225px;
+        position: absolute;
+        top:52.7%;
+        left: 49.7%;
+        transform: translate(-50%, -50%)
+      }
+    }
+    .content-side {
+      max-width: 430px;
+      margin-top: 5vh;
+      p {
+        font-size: 20px;
+        font-weight: 400;
+      }
+      h1 {
+        font-size: 33px;
+        font-weight: 800;
+        text-transform: uppercase;
+        padding-top: 7px;
+        padding-bottom: 7px;
+      }
+      span {
+        font-size: 16px;
+        font-weight: 400;
+      }
+      h4 {
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 30px;
+      }
+      h5 {
+        font-size: 22px;
+        font-weight: 500;
+        margin-top: 30px;
+      }
+      .download {
+        display: flex;
+        gap: 10px;
+        margin-top: 8px;
+        .download-img {
+          max-width: 110px;
+        }
+      }
+
+    }
+  }
+}
