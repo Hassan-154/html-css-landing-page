@@ -17,30 +17,29 @@
 
 <body>
   <header>
-    <div class="container">
-      <div class="row">
-        <div class="menu-btn">
-          <i class="fa-solid fa-bars" style="color: black; font-size: 28px;"></i>
-        </div>
-        <nav class="navbar">
-          <div class="logo">
-            <a><img src="/img/Icon648_1.png" /></a>
-          </div>
-          <ul class="main-menu">
-            <li class="list-items"><a href="pages/index.html">now on about page </a></li>
-            <li class="list-items"><a href="pages/index.html">Download Now </a></li>
-            <li class="list-items"><a href="">Game Details</a></li>
-            <li class="list-items"><a href="">About Us</a></li>
-            <li class="list-items"><a href="">Contact Us</a></li>
-          </ul>
-        </nav>
-      </div>
+    <div class="navbar">
+      <nav>
+        <input id="nav-toggle" type="checkbox">
+        <div class="logo"><img src="/img/Icon648_1.png" /></div>
+        <ul class="links">
+          <li class="list-items"><a href="pages/index.html">Home </a></li>
+          <li class="list-items"><a href="pages/index.html">Download Now </a></li>
+          <li class="list-items"><a href="">Game Details</a></li>
+          <li class="list-items"><a href="pages/about.html">About Us</a></li>
+          <li class="list-items"><a href="">Contact Us</a></li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </label>
+      </nav>
     </div>
   </header>
   <!-- about page -->
 
-  <section style="max-width: 1200px; margin: 0 auto;">
-    <h1 style="font-style: italic; text-align: center; padding-top: 40px; padding-bottom: 20px;">ABOUT US</h1>
+  <section style="max-width: 1200px; margin: 0 auto; padding: 0px 10px;">
+    <h1 style="font-style: italic; text-align: center; padding-top: 100px; padding-bottom: 20px;">ABOUT US</h1>
     <p>
       Back in April 2009, I had an idea for a game. But like most people, I was too busy with real life. Besides, I was
       sure someone had come up with the idea and money was tight. So, I put my notebook in the drawer and went on with
@@ -73,7 +72,7 @@
     </div>
   </section>
 
-  <script src="js/index/index.js"></script>
+  <script src="/js/index/index.js"></script>
   <script src="js/footer//index.js"></script>
 
 </body>
