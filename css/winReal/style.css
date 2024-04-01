@@ -115,105 +115,45 @@
 .why-StopClock .grid .grid-box .last-one {
   margin-top: -10px;
 }
-.why-StopClock .game-modes {
-  max-width: 350px;
-  margin: 0 auto;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 13px;
-  margin-top: 50px;
-}
-.why-StopClock .game-modes h5 {
-  font-size: 21px;
-  font-weight: 700;
-}
-.why-StopClock .game-modes p {
-  font-size: 15px;
-  font-weight: 400;
-}
-.why-StopClock .game-modes .horizontal-line {
-  height: 2px;
-  background-color: #1DB56A;
-}
-.why-StopClock .ready-to-play {
-  box-shadow: 0px 4px 7px 1px rgba(0, 0, 0, 0.2);
-  display: flex;
-  max-width: 600px;
-  margin: 20px auto;
-  margin-top: 60px;
-  padding: 10px;
-  align-items: center;
-  text-align: center;
-  gap: 5px;
-  border-radius: 15px;
-}
-.why-StopClock .ready-to-play .cash {
-  height: 180px;
-  width: auto;
-}
-.why-StopClock .ready-to-play .mid-line {
-  height: 200px;
-  width: auto;
-}
-.why-StopClock .ready-to-play .right-content {
-  padding-left: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 14px;
-}
-.why-StopClock .ready-to-play .right-content h4 {
-  background-color: black;
-  color: white;
-  font-weight: 700;
-  font-size: 21px;
-  padding: 5px;
-  border-radius: 5px;
-}
-.why-StopClock .ready-to-play .right-content h5 {
-  font-weight: 800;
-  font-size: 16px;
-}
-.why-StopClock .ready-to-play .right-content .download {
-  display: flex;
-  gap: 5px;
-}
-.why-StopClock .ready-to-play .right-content .download .download-img {
-  max-width: 100px;
-}
-.why-StopClock .here-how {
-  max-height: 850px;
+
+.here-how {
+  max-width: 850px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
   padding: 20px;
   border-radius: 25px;
   margin-top: 50px;
+  margin: 0 auto;
 }
-.why-StopClock .here-how h3 {
+.here-how h3 {
   font-size: 20px;
   font-weight: 800;
   text-align: center;
 }
-.why-StopClock .here-how .here-grid {
+.here-how .here-grid {
   display: flex;
   flex-direction: column;
   width: 100%;
   gap: 12px;
   padding-top: 30px;
 }
-.why-StopClock .here-how .here-grid .here-grid-box {
+.here-how .here-grid .here-grid-box {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.why-StopClock .here-how .here-grid .here-grid-box img {
+.here-how .here-grid .here-grid-box img {
   width: 40px;
   height: 25px;
 }
-.why-StopClock .here-how .here-grid .here-grid-box p {
+.here-how .here-grid .here-grid-box p {
   width: 100%;
 }
 
+@media screen and (max-width: 860px) {
+  .here-how {
+    margin: 0 10px;
+  }
+}
 .play-now {
   background-color: rgb(27, 168, 98);
   padding-bottom: 50px;
@@ -338,52 +278,5 @@
   .why-StopClock .grid .grid-box p {
     margin-top: 10px;
     font-size: 15px;
-  }
-  .ready-to-play {
-    box-shadow: 0px 4px 7px 1px rgba(0, 0, 0, 0.2);
-    display: flex;
-    flex-direction: column;
-    max-width: 600px;
-    margin: 20px auto;
-    margin-top: 60px;
-    padding: 15px;
-    align-items: center;
-    text-align: center;
-    gap: 20px;
-  }
-  .ready-to-play .cash {
-    height: 180px;
-    width: auto;
-  }
-  .ready-to-play .mid-line {
-    height: 200px;
-    width: auto;
-    display: none;
-  }
-  .ready-to-play .right-content {
-    padding-top: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 14px;
-  }
-  .ready-to-play .right-content h4 {
-    background-color: black;
-    color: white;
-    font-weight: 700;
-    font-size: 21px;
-    padding: 5px;
-    border-radius: 5px;
-  }
-  .ready-to-play .right-content h5 {
-    font-weight: 800;
-    font-size: 16px;
-  }
-  .ready-to-play .right-content .download {
-    display: flex;
-    gap: 5px;
-  }
-  .ready-to-play .right-content .download .download-img {
-    max-width: 100px;
   }
 }/*# sourceMappingURL=style.css.map */
