@@ -18,6 +18,8 @@
 }
 .footer a {
   color: black;
+  cursor: pointer;
+  margin-top: 1.5px;
 }
 
 @media only screen and (max-width: 600px) {
