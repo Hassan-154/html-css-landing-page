@@ -1,8 +1,8 @@
-const initSlider = () => {
-  const imageList = document.querySelector(".slider-wrapper .image-list");
-  const slideButtons = document.querySelectorAll(".slider-wrapper .slide-button");
-  const sliderScrollbar = document.querySelector(".container .slider-scrollbar");
-  const scrollbarThumb = sliderScrollbar.querySelector(".scrollbar-thumb");
+const multiInitSlider = () => {
+  const imageList = document.querySelector(".multi-slider-wrapper .multi-image-list");
+  const slideButtons = document.querySelectorAll(".multi-slider-wrapper .multi-slide-button");
+  const sliderScrollbar = document.querySelector(".image-container .multi-slider-scrollbar");
+  const scrollbarThumb = sliderScrollbar.querySelector(".multi-scrollbar-thumb");
   const maxScrollLeft = imageList.scrollWidth - imageList.clientWidth;
   
   // Handle scrollbar thumb drag
@@ -38,7 +38,7 @@ const initSlider = () => {
   // Slide images according to the slide button clicks
   slideButtons.forEach(button => {
       button.addEventListener("click", () => {
-          const direction = button.id === "prev-slide" ? -1 : 1;
+          const direction = button.id === "multi-prev-slide" ? -1 : 1;
           const scrollAmount = imageList.clientWidth * direction;
           imageList.scrollBy({ left: scrollAmount, behavior: "smooth" });
       });
@@ -64,5 +64,5 @@ const initSlider = () => {
   });
 }
 
-window.addEventListener("resize", initSlider);
-window.addEventListener("load", initSlider);
+window.addEventListener("resize", multiInitSlider);
+window.addEventListener("load", multiInitSlider);

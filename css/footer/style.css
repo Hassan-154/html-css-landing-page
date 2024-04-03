@@ -1,14 +1,15 @@
 .footer {
-  max-width: 850px;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   margin-top: 40px;
   padding-bottom: 40px;
   justify-content: space-between;
+  padding: 20px 10px;
 }
 .footer .logo {
-  max-height: 50px;
-  width: auto;
+  max-height: 60px;
+  max-width: 60px;
 }
 .footer .navigation-links {
   display: flex;
@@ -17,4 +18,11 @@
 }
 .footer a {
   color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */

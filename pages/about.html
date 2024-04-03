@@ -16,15 +16,15 @@
 </head>
 
 <body>
-  <header>
+   <header>
     <div class="navbar">
       <nav>
         <input id="nav-toggle" type="checkbox">
         <div class="logo"><img src="/img/Icon648_1.png" /></div>
         <ul class="links">
-          <li class="list-items"><a href="pages/index.html">Home </a></li>
-          <li class="list-items"><a href="pages/index.html">Download Now </a></li>
-          <li class="list-items"><a href="">Game Details</a></li>
+          <li class="list-items"><a href="index.html">Home </a></li>
+          <li class="list-items"><a class="openLink" data-url="https://play.google.com/store/apps/details?id=com.friendcentive.stopclock&pcampaignid=web_share&pli=1" >Download Now </a></li>
+          <li class="list-items"><a href="pages/gameDetails.html">Game Details</a></li>
           <li class="list-items"><a href="pages/about.html">About Us</a></li>
           <li class="list-items"><a href="">Contact Us</a></li>
         </ul>
@@ -58,23 +58,21 @@
       <a href="pages/index.html">Home </a>
       <a href="pages/index.html">Download Now</a>
       <a href="pages/index.html">Contact us</a>
+      <a href="pages/index.html" class="openLink" data-url="https://appoftheday.downloadastro.com/">App of the day</a>
     </div>
     <div class="navigation-links">
-      <a href="pages/index.html">terms and condition</a>
-      <a href="/pages/about.html">About US </a>
-      <a href="pages/index.html">FAQ</a>
+      <a href="pages/term&condition.html">Terms & Condition</a>
+      <a href="pages/about.html">About US </a>
+      <a href="pages/about.html" class="openLink" data-url="https://stopclock.app:8443/delete-account">DELETE MY ACCCOUNT</a>
     </div>
     <div>
-      <a id="openLink" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-      <button class="openLink" data-url="https://starwear.netlify.app/">Link 1</button>
-      <button class="openLink" data-url="https://example.com">Link 2</button>
-      <button class="openLink" data-url="https://anotherexample.com">Link 3</button>
+      <div class="sharethis-inline-share-buttons"></div>
     </div>
   </section>
 
   <script src="/js/index/index.js"></script>
   <script src="js/footer//index.js"></script>
-
+  <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=660d662f435cdb0019154315&product=inline-share-buttons&source=platform" async="async"></script>
 </body>
 
 </html>
