@@ -69,13 +69,24 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
+  padding-top: 10px;
   gap: 15px;
   border-radius: 15px;
   margin: 5px 0px;
-  padding: 10px;
+  padding: 15px;
   margin-left: 2px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.review-slider .slider-wrapper .image-list .image-item .dp {
+  background-color: #69A03A;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
 }
 .review-slider .slider-wrapper .image-list .image-item h2 {
   font-size: 16px;
